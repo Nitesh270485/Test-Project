@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.mainHeader {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.parent {
+    display: flex;
+    gap: 16px;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.parent .child {
+    font-size: 45px;
+    height: 100px;
+    width: 300px;
+}
+
+.parentNew {
+    margin: 36px;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+}
+
+.parentNew .row {
+    display: flex;
+    justify-content: start;
+    height: 203px;
+
+}
+
+.red {
+    background: #FF8686;
+}
+
+.blue {
+    background: #869AFF;
+}
+
+.mustard {
+    background: #FFC686;
+}
+
+.purple {
+    background: #EB86FF;
+}
+
+.seagreen {
+    background: #86FFD9;
+}
+
+.skyblue {
+    background: #86DFFF;
+}
+
+.parentNewFlex {
+    flex-wrap: wrap;
+    display: flex;
+    min-width: 100%;
+}
+
+.definedheight {
+    height: 203px;
+}
+
+.parentNewFlex .widthSmall {
+    width: calc(33.33% - 16px);
+}
+
+.parentNewFlex .widthMid {
+    width: calc(50% - 16px);
+}
+
+.p-4 {
+    padding: 8px;
+}
